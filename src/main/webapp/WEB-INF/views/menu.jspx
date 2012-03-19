@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_co" z="DQ4DlXKnNXwg0CXSsUjBG6DV0SU=">
+            <menu:item id="i_co_new" messageCode="global_menu_new" url="/coes?form" z="UbWskXIs20DRDHBVP+xBf9z4Z3g="/>
+            <menu:item id="i_co_list" messageCode="global_menu_list" url="/coes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="zMEo2xFTZ+1Lys489y3NwZ4CROA="/>
+        </menu:category>
+        <menu:category id="c_tradingday" z="fXxWfXSU5KH+sXZgL+VkAE3c7UE=">
+            <menu:item id="i_tradingday_new" messageCode="global_menu_new" url="/tradingdays?form" z="GXCauaHMglQl3oXPLH4tuCtwVlQ="/>
+            <menu:item id="i_tradingday_list" messageCode="global_menu_list" url="/tradingdays?page=1&amp;size=${empty param.size ? 10 : param.size}" z="dpc/ZmUiw7TiWxeRUDliFY2su7o="/>
+        </menu:category>
+        <menu:category id="c_reports" z="user-managed">
+            <menu:item id="i_summary" messageCode="global_generic" url="/summary" z="user-managed"/>
+        </menu:category>
+    </menu:menu>
+</div>

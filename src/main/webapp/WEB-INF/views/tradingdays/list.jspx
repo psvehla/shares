@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_redbarn_shares_TradingDay" items="${tradingdays}" z="3RQZOAW1gx/BPNchEnqp9gj2wqc=">
+        <table:table data="${tradingdays}" id="l_com_redbarn_shares_TradingDay" path="/tradingdays" z="ZkbeBuKQ6Vks1VOhOOPVW85tx0A=">
+            <table:column date="true" dateTimePattern="${tradingDay_tradingdate_date_format}" id="c_com_redbarn_shares_TradingDay_tradingDate" property="tradingDate" z="Jjoh63+7JX7iEE37ucSTs+5ZTzM="/>
+            <table:column id="c_com_redbarn_shares_TradingDay_cos" property="cos" z="/XA9ytdFyBAlmQMv1KZctq0lMRI="/>
+        </table:table>
+    </page:list>
+</div>
